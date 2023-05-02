@@ -1,7 +1,7 @@
 # Logik
-Logik is a simple web editor for boolean algebra. It is a showcase of the [Langium](https://github.com/langium/langium) DSL framework. The web editor is complimented by a logic diagram powered by [Sprotty](https://github.com/eclipse-sprotty/sprotty).
+Logik is a simple programming language for boolean algebra. It is a showcase of the [Langium](https://github.com/langium/langium) DSL framework. The web editor is complimented by a logic diagram preview powered by [Sprotty](https://github.com/eclipse-sprotty/sprotty).
 
-## Running Web Editor
+## Running the web editor
 ![screenshot](https://user-images.githubusercontent.com/877171/235789552-70737b07-667d-4fbf-86e3-9068b6eedfe6.png)
 
 To run logik in the web, you need to first install dependencies and then build the project. From the root folder run the following commands.
