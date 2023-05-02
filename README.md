@@ -20,9 +20,17 @@ npm run serve
 You can view a demo of the web editor at https://ravornyo.github.io/logik/.
 
 ## Logik Grammar
-Logik has a simple grammar that comprises of 3 operators. **+** for logic OR, **\*** or **X** for logic AND and **'** for a logic NOT. A logik program consists of several statements, with each statement on a separate line and terminated by the ";". The general syntax of a statement is as follows:
+Logik has a simple grammar that comprises of 3 operators. **+** for logic OR, **\*** or **X** for logic AND and **'** for a logic NOT or negation. A logik program consists of several statements, with each statement on a separate line and terminated by the ";". The general syntax of a statement is as follows:
 ```
 [LVALUE] = [EXPRESSION];
 ```
-
 Single line comments are supported with **#** or **//**;
+
+Here is a sample code:
+```
+#TRIP LATCH SET
+PLT32S = PSV52 + PSV56 + PSV60 + PLT28 + PLT06 + PSV61 + PCT18Q + PLT13;
+#TRIP LATCH RESET
+PLT31R = (PB6_PUL * AST01Q') + (RB20 * SC_SW) + ( PLT08 * PCT27Q);
+```
+
