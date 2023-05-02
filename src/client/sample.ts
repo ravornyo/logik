@@ -1,0 +1,5 @@
+const sampleCode:string = `#TRIP LATCH SET
+PLT32S = PSV52 + PSV56 + PSV60 + PLT28 + PLT06 + PSV61 + PCT18Q + PLT13; # INTERNAL TRIP LATCH
+#TRIP LATCH RESET
+PLT31R = (PB6_PUL * AST01Q') + (RB20 * SC_SW) + ( PLT08 * PCT27Q);`;
+export default sampleCode;

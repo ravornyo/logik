@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "types": ["reflect-metadata"],
+    "lib": ["ES2022","DOM","webworker"],
+    "sourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "jsx",
+    "outDir": "out",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+     "src/**/*.ts"
+, "src/client/setup.js"  ],
+  "exclude": [
+     "out",
+     "node_modules"
+  ]
+}
