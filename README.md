@@ -11,11 +11,10 @@ npm install
 npm run build:web
 ```
 
-The build command will setup the web asset files in the public folder. You can start a simple express app on localhost:3000 by running the following.
+The build command will setup the web asset files in the public folder. You can start the express app by running the command below. The running web app should be available at localhost:3000.
 
 ```
 npm run serve
 ```
-
 
 You can view a demo of the web editor at https://ravornyo.github.io/logik/.
