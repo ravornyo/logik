@@ -4,7 +4,7 @@ Logik is a simple web editor for boolean algebra. It is a showcase of Langium DS
 ## Running Web Editor
 ![screenshot](https://user-images.githubusercontent.com/877171/235789552-70737b07-667d-4fbf-86e3-9068b6eedfe6.png)
 
-To run logik in the web, you need to install the first install dependencies and then build the project. From the root folder run the following commands.
+To run logik in the web, you need to first install dependencies and then build the project. From the root folder run the following commands.
 
 ```
 npm install
