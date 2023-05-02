@@ -1,0 +1,37 @@
+{
+  "name": "logik",
+  "scopeName": "source.logik",
+  "fileTypes": [
+    ".lgk"
+  ],
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "name": "keyword.control.logik",
+      "match": "\\b(X|x)\\b"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.block.logik",
+          "begin": "/\\*",
+          "beginCaptures": {
+            "0": {
+              "name": "punctuation.definition.comment.logik"
+            }
+          },
+          "end": "\\*/",
+          "endCaptures": {
+            "0": {
+              "name": "punctuation.definition.comment.logik"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
