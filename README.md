@@ -1,5 +1,5 @@
 # Logik
-Logik is a simple web editor for boolean algebra. It is a showcase of Langium DSL framework. The web editor is complimented by a logic diagram powered by Sprotty.
+Logik is a simple web editor for boolean algebra. It is a showcase of [Langium](https://langium.org/) DSL framework. The web editor is complimented by a logic diagram powered by Sprotty.
 
 ## Running Web Editor
 ![screenshot](https://user-images.githubusercontent.com/877171/235789552-70737b07-667d-4fbf-86e3-9068b6eedfe6.png)
